@@ -11,7 +11,7 @@ const sendEmail = async (req, res) => {
     },
   });
 
-  let info = await transporter.sendMail({
+  const msg = await transporter.sendMail({
     from: '"Fred Boo 👻" <boo@example.com>',
     to: 'bear@example.com, baz@example.com',
     subject: 'Hello ✔',
@@ -19,7 +19,7 @@ const sendEmail = async (req, res) => {
     html: '<b>Hello world!</b>',
   });
 
-  res.json(info);
+  res.json(msg);
 };
 
 module.exports = sendEmail;
