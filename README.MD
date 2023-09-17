@@ -41,7 +41,7 @@ These instructions will help you set up and run the project on your local machin
      EMAIL_HOST=smtp.ethereal.email
      EMAIL_PORT=587
      EMAIL_SECURE=false
-     EMAIL_USERNAME=your_email@example.com
+     EMAIL_USERNAME=your_email@ethereal.email
      EMAIL_PASSWORD=your_email_password
      ```
 
